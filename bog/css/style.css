@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "FreeSansRegular";
+    src: url("../assets/font/FreeSans.ttf");
+}
+@font-face {
+    font-family: "FreeSansRegularOblique";
+    src: url("../assets/font/FreeSansOblique.ttf");
+}
+.sansOblique {
+    font-family: "FreeSansRegularOblique";
+}
+@font-face {
+    font-family: "FreeSansBold";
+    src: url("../assets/font/freesansbold.ttf");
+}
+.sansBold {
+    font-family: "FreeSansBold";
+}
+@font-face {
+    font-family: "FreeSansBoldOblique";
+    src: url("../assets/font/FreeSansBoldOblique.ttf");
+}
+.sansBoldOblique {
+    font-family: "FreeSansBoldOblique";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html.lenis {
+    height: auto;
+  }
+  
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+
+:root {
+    --white: #E3E3E3;
+    --black: #090909;
+    --link: rgba(177,177,177,0.3);
+    --main: rgb(124 20 244 / 90%);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'OCR A Std', sans-serif;
+    overflow-x: hidden;
+    letter-spacing: -0.13vmin;
+}
+
+.cardCont {
+    min-height: 60vh;
+    padding: 4vw;
+    border-bottom: 1px solid var(--link);
+}
+
+.cardCont:nth-child(3n - 1) {
+    border-left: 1px solid var(--link);
+    border-right: 1px solid var(--link);
+}
+
+.cubo {
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--link);
+    background: var(--main);
+    margin: 0 10px 4px 0;
+}
+
+nav {
+    font-size: .7rem;
+}
+
+.navEl {
+    border-left: 1px solid var(--link);
+}
+
+.date{
+    font-size: .7rem;
+}
+
+.cardTitle{
+    font-size: 1.4rem;
+}
+
+.cardBottomText{
+    color: var(--main);
+}
+
+.cardBottomText::before {
+    content: '+';
+}
+
+.imageCont{
+    height: 60vh;
+    z-index: -10;
+}
+
+.imgCont{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}

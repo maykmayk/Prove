@@ -49,7 +49,8 @@ body {
     color: var(--white);
     font-family: 'OCR A Std', sans-serif;
     overflow-x: hidden;
-    letter-spacing: -0.13vmin;
+    letter-spacing: -0.12rem;
+    text-transform: uppercase;
 }
 
 .cardCont {
@@ -104,4 +105,25 @@ nav {
     width: 100%;
     height: 100%;
     object-fit:cover;
+}
+
+.titleCardsCont{
+    transform: translateY(250%);
+}
+
+.titleCards{
+    border-radius: 8px;
+    font-size: .875rem;
+    z-index: 999;
+    border-image-source: url(../assets/images/border_ressource_title.svg);
+    line-height: 0;
+    pointer-events: none;
+    background: none;
+    border-image-repeat: stretch;
+    border-image-slice: 45% 30%!important;
+    border-image-width: 60px 80px;
+    border-style: solid!important;
+    border-width: 17px!important;
+    cursor: pointer;
+    letter-spacing: -.02em;
 }

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "FreeSansRegular";
+    src: url("../assets/font/Nohemi-Regular.ttf");
+}
+@font-face {
+    font-family: "FreeSansRegularOblique";
+    src: url("../assets/font/FreeSansOblique.ttf");
+}
+.sansOblique {
+    font-family: "FreeSansRegularOblique";
+}
+@font-face {
+    font-family: "FreeSansBold";
+    src: url("../assets/font/freesansbold.ttf");
+}
+.sansBold {
+    font-family: "FreeSansBold";
+}
+@font-face {
+    font-family: "FreeSansBoldOblique";
+    src: url("../assets/font/FreeSansBoldOblique.ttf");
+}
+.sansBoldOblique {
+    font-family: "FreeSansBoldOblique";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html.lenis {
+    height: auto;
+  }
+  
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+
+:root {
+    --white: #E3E3E3;
+    --black: #1F1F1F;
+    --link: rgba(177,177,177,0.3);
+    --main: #e20101;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.boxTop{
+    background-color: var(--white);
+    height: 10vh;
+    width: 100%;
+}
+
+.boxTopLeft{
+    background-color: var(--black);
+    color: var(--white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.boxTopRightCont{
+    background-color: var(--black);
+}
+
+.boxTopRight {
+    background-color: var(--white);
+    border-bottom-left-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.boxBottom{
+    background-color: var(--white);
+    height: 10vh;
+    width: 100%;
+}
+
+.boxBottomLeft{
+    background-color: var(--black);
+    color: var(--white);
+    border-Bottom-left-radius: 1rem;
+    border-Bottom-right-radius: 1rem;
+}
+
+.boxBottomRightCont{
+    background-color: var(--black);
+}
+
+.boxBottomRight {
+    background-color: var(--white);
+    border-top-left-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.boxCont {
+    background-color: var(--black);
+    color: var(--white);
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

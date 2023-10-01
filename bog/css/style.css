@@ -39,7 +39,7 @@ html.lenis {
 
 :root {
     --white: #E3E3E3;
-    --black: #090909;
+    --black: #0E0E0E;
     --link: rgba(177,177,177,0.3);
     --main: #e20101;
 }
@@ -94,6 +94,13 @@ nav {
 
 .cardBottomText::before {
     content: '+';
+    display: inline-block;
+    transition: transform 0.3s ease; 
+    transform-origin: center center; 
+}
+
+.cardBottomText:hover::before {
+    transform: rotate(180deg);
 }
 
 .imageCont{

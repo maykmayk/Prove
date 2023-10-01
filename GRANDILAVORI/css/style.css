@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "FreeSansRegular";
+    src: url("../assets/font/FreeSans.ttf");
+}
+@font-face {
+    font-family: "FreeSansRegularOblique";
+    src: url("../assets/font/FreeSansOblique.ttf");
+}
+.sansOblique {
+    font-family: "FreeSansRegularOblique";
+}
+@font-face {
+    font-family: "FreeSansBold";
+    src: url("../assets/font/freesansbold.ttf");
+}
+.sansBold {
+    font-family: "FreeSansBold";
+}
+@font-face {
+    font-family: "FreeSansBoldOblique";
+    src: url("../assets/font/FreeSansBoldOblique.ttf");
+}
+.sansBoldOblique {
+    font-family: "FreeSansBoldOblique";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html.lenis {
+    height: auto;
+  }
+  
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+
+:root {
+    --white: #E3E3E3;
+    --black: #090909;
+    --link: #a4a4a4;
+    --main: #1B2C50;
+}
+  
+::selection {
+    background-color: var(--main);
+}
+
+body {
+    background-color: var(--white);
+    color: var(--main);
+    font-family: "FreeSansRegular";
+    overflow-x: hidden;
+    letter-spacing: -0.13vmin;
+}
+
+.heroImageCont{
+    height: 80vh;
+}
+
+.overlayCover {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    background: var(--main);
+}
+
+#heroTitle{
+    color: var(--white);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+#subHero {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.buttonImg {
+    padding: 10px 15px 10px 5px;
+    background-color: var(--white);
+    color: var(--main);
+}
+
+.buttonMain {
+    padding: 10px 15px;
+    background-color: var(--white);
+    color: var(--main);
+    cursor: pointer;
+    border: 1px solid var(--white);
+    transition: all .3s ease-in-out;
+}
+
+.buttonMain:hover {
+    background-color: var(--main);
+    color: var(--white);
+}
+
+.sectImg{
+    aspect-ratio: 2/1;
+}
+
+.blueBg{
+    background-color: var(--main);
+    color: var(--white);
+}
+
+.backToTopBtn{
+    background-color: var(--main);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.arrowTop{
+    transform: scale(0.7);
+    transition: transform .2s ease-in-out;
+}
+
+.backToTopBtn:hover .arrowTop{
+    transform: scale(1);
+}
+
+.footerEl {
+    left: 0px;
+}
+
+.footerEl:hover {
+    left: -10px;
+}
+
+.block{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 90%;
+    background-color: var(--white);
+    z-index: 999;
+}

@@ -105,3 +105,50 @@ body {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+.buttonCircle{
+    background-color: var(--black);
+    border-radius: 50%;
+    height: calc(100vw * 0.06);
+    width: calc(100vw * 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCircleItem{
+    color: var(--white);
+    font-size: calc(100vw * 0.02);
+    rotate: 45deg;
+    transition: all .2s ease-in-out;
+}
+
+.buttonCircle:hover .buttonCircleItem{
+    font-size: calc(100vw * 0.03);
+    rotate: 0deg;
+}
+
+@media screen and (max-width: 768px){
+    .buttonCircle{
+        background-color: var(--black);
+        border-radius: 50%;
+        height: calc(100vw * 0.17);
+        width: calc(100vw * 0.17);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttonCircleItem{
+        color: var(--white);
+        font-size: calc(100vw * 0.06);
+        rotate: 45deg;
+        transition: all .2s ease-in-out;
+    }
+    
+    .buttonCircle:hover .buttonCircleItem{
+        font-size: calc(100vw * 0.09);
+        rotate: 0deg;
+    }
+    
+}

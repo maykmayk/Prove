@@ -1,0 +1,137 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Neue";
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+@font-face {
+  font-family: "Editorialnew";
+  src: url(../assets/font/EditorialNewUltralight.otf);
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url(../assets/font/NeueHaasDisplay-Light.ttf);
+}
+
+.video-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  scale: 0.2;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  height: 500vh;
+}
+
+.videoHero{
+width: 100vw;
+height: 100vh
+}
+
+.heading-big-hero {
+  letter-spacing: -.03em;
+  font-family: "Editorialnew";
+  font-size: 16.11em;
+  font-weight: 200;
+  line-height: 0.9;
+}
+
+.qrCont {
+  width: calc(14.6em/2);
+  height: calc(5.55em/2);
+}
+
+.headerCont{
+  padding-top: 50vh;
+}
+
+.nav {
+  font-size: .7em;
+  z-index: 999;
+  position: fixed;
+}
+
+.navBtn {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 100em;
+  justify-content: center;
+  align-items: center;
+  padding: 0.72em 1.4em 0.67em;
+  display: flex;
+}
+
+.navBtn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.leafs{
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+}
+
+.l1{
+  width: calc(33.06em/3);
+  height: calc(75.625em/3);
+  position: fixed;
+  top: 40vh;
+  right: 0%;
+}
+
+.l2{
+  width: calc(58.47em/3);
+  height: calc(86.87em/3);
+  position: fixed;
+  top: 40vh;
+  left: -5%;
+}
+
+.l3{
+  width: calc(159em/10);
+  height: calc(162em/10);
+  position: fixed;
+  top: 0vh;
+  right: -5%;
+  rotate: -90deg;
+}
+
+.l4{
+  width: calc(159em/10);
+  height: calc(162em/10);
+  position: fixed;
+  top: 0vh;
+  left: -5%;
+  rotate: 90deg;
+}
+
+.imgCont{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.dateSvg {
+  text-align: center;
+  width: calc(7.64em/2);
+  height: calc(4.44em/2);
+  margin-bottom: .6rem;
+}
